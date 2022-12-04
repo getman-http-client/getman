@@ -15,7 +15,7 @@ if [ -z "$file_path" ]; then
 
 else
 
-    info "Starting..."
+    info "Checking directory path..."
     sleep 2s
 
     if [ ! -d "$file_path" ]; then

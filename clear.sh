@@ -14,7 +14,7 @@ if [[ $must_commit != "$true_flag" && $must_commit != "$false_flag" ]]; then
 
 else
 
-    info "Starting..."
+    info "Checking flags..."
     sleep 2s
 
     if [ "$must_commit" = "$true_flag" ]; then
