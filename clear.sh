@@ -19,6 +19,10 @@ rm -rf *.html
 rm -rf *.css
 rm -rf ./assets
 
-git add .
-git commit -m "Old build removed"
-git push
+# Check if changes must be commited
+
+must_commit=$1
+
+if [ "$must_commit" = "y" ]; then
+    sh ./commit-changes.sh "Old build removed"
+fi;
