@@ -38,7 +38,7 @@ else
         sleep 3s
 
         # Copy build into current directory
-        # cp -r $file_path ./
+        cp -r $file_path ./
 
         success "Build retrieved!"
 
