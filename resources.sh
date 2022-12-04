@@ -41,7 +41,7 @@ function git_commit_and_push {
 
     info "Running: > git commit -m \"${COMMIT_MESSAGE}\""
     sleep 1.5s
-    git commit -m $COMMIT_MESSAGE
+    git commit -m "$COMMIT_MESSAGE"
 
     info "Running: > git push"
     sleep 1.5s
